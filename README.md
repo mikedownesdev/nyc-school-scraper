@@ -12,15 +12,15 @@ Upon querying for a few schools, I was able to determine that all of the NYC Sch
 
 ## About This Project
 
-This simple Python-powered web scraper will loop, starting 0 and continuing until an upper bound number is reached, for each borough code, using it in the URL template from above and attempting to pull the specific pieces of data that we are scraping for. 
+This simple Python-powered web scraper will loop, starting 0 and continuing until an upper bound number is reached, for each borough code, using it in the URL template from above and attempting to pull the specific pieces of data that we are scraping for. It uses PyQuery for a jQuery-like HTML-selecting experience.
 
 ### Example
-The Bronx (X): 
-https://www.schools.nyc.gov/schools/X001
-https://www.schools.nyc.gov/schools/X002 -- Not a school
-https://www.schools.nyc.gov/schools/X003
-https://www.schools.nyc.gov/schools/X004
-...
+The Bronx (X):  
+https://www.schools.nyc.gov/schools/X001  
+https://www.schools.nyc.gov/schools/X002 -- Not a school  
+https://www.schools.nyc.gov/schools/X003  
+https://www.schools.nyc.gov/schools/X004  
+...  
 https://www.schools.nyc.gov/schools/X400
 
 
